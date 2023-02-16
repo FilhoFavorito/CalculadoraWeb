@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/calc.css">
+    <script src="/calc.js" defer></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+        <h1>Calculadora</h1>
+
+        <div class="tela">
+            <input id="tela" dir="rtl"="text">
+            <button id="limpaTela">limpar tela</button>
+        </div>
+
+        <div class="botoes">
+            <button onclick="addCaracter('1')">1</button>
+            <button onclick="addCaracter('2')">2</button>
+            <button onclick="addCaracter('3')">3</button>
+            <button onclick="addCaracter('+')">+</button>
+            <button onclick="addCaracter('4')">4</button>
+            <button onclick="addCaracter('5')">5</button>
+            <button onclick="addCaracter('6')">6</button>
+            <button onclick="addCaracter('-')">-</button>
+            <button onclick="addCaracter('7')">7</button>
+            <button onclick="addCaracter('8')">8</button>
+            <button onclick="addCaracter('9')">9</button>
+            <button onclick="addCaracter('/')"> /</button>
+            <button onclick="addCaracter('0')">0</button>
+            <button onclick="addCaracter('**')">**</button>
+            <button onclick="resultado()">=</button>
+            <button onclick="addCaracter('*')">*</button>
+            
+        </div>
+    </div>
+</body>
+</html>
